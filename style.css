@@ -86,7 +86,7 @@
 
 	.btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
     color: #fff;
-    background-color: #eb6b34;
+    background-color: #363777;
     border-color: transparent;
     opacity: 1;
 	}
@@ -1238,6 +1238,10 @@
         line-height: 22px;
         padding-top: 9px;
         width: 60%;
+    }
+
+    #indice .unit-content .header .title {
+    	    color: #363777;
     }
 
     .body_curso #indice .unit-content:not(.active) .header .title {
