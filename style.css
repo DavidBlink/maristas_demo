@@ -928,7 +928,7 @@
 .bck-dropdown-content {
 	overflow-y: auto;
     display: none;
-    max-height: 300px;
+    max-height: 100%;
     padding: 10px;
     background-color: rgba(0, 54, 120, 0.23);
     border-radius: 9px;
