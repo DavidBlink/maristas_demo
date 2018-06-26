@@ -109,6 +109,18 @@
 		font-size: 1.6rem;
 	}
 
+
+	/*ancho paleta de colores de la slide de dibujar*/
+	.slide_content_type_29 .colors ul {
+    column-count: 2;
+    line-height: 14px;
+    column-gap: 6px;
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+	}
+	/**/
+
 	.texto_curso p:last-of-type {
 		margin-bottom: 15px;
 	}
