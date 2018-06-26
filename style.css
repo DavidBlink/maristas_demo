@@ -587,15 +587,11 @@
     position: absolute;
     margin-left: -40px;
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     text-align: center;
-    color: #ffffff;
+    color: #333;
     margin-top: -2px;
-    background-color: #eb6b34;
-    border-radius: 50%;
-    padding: 5px;
-    width: 32px;
-    height: 32px;
+    
 }
 
 
@@ -624,21 +620,19 @@
 #actividad .content .texto_curso .bck-ol-1 li:before,
 #actividad .popover-content .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
-    content: counter(bck-li-counter);
-    width: 30px;
-    height: 30px;
+    content: counter(bck-li-counter)'. ';
     position: absolute;
-    text-align: right;
-    color: #ffffff;
-    background: #bf0811;
-    margin-left: -42px;
-    margin-right: 5px;
-    border-radius: 100%;
+    margin-left: -40px;
+    font-weight: bold;
+    font-size: 2.2rem;
     text-align: center;
-    font-size: 1.9rem;
-    font-family: sans-serif;
-    font-weight: normal;
-    line-height: 30.5px;
+    color: #ffffff;
+    margin-top: -2px;
+    background-color: #eb6b34;
+    border-radius: 50%;
+    padding: 5px;
+    width: 32px;
+    height: 32px;
 }
 
 /*LISTA ORDENADA 2*/
