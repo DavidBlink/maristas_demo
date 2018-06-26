@@ -564,6 +564,10 @@
 		border-top: 2px dashed #f9bfad;
 	}
 
+
+
+	/*listas*/
+
 	.content ol,
 	.cke_contents ol {
 		list-style: none;
@@ -593,6 +597,86 @@
     width: 32px;
     height: 32px;
 }
+
+
+/*LISTA ORDENADA 1*/
+#actividad .content .cke_contents .bck-ol-1,
+#actividad .content .texto_curso .bck-ol-1,
+#actividad .content .workspace ul li .bck-ol-1 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-1 li,
+#actividad .content .cke_contents .bck-ol-1 li,
+#actividad .content .texto_curso .bck-ol-1 li,
+#actividad .popover-content .bck-ol-1 li,
+#actividad .content .workspace ul li .bck-ol-1 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+    font-weight: 700;
+}
+
+
+#actividad .content .cke_contents .bck-ol-1 li:before,
+#actividad .content .texto_curso .bck-ol-1 li:before,
+#actividad .popover-content .bck-ol-1 li:before,
+#actividad .content .workspace ul li .bck-ol-1 li:before {
+    content: counter(bck-li-counter);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    text-align: right;
+    color: #ffffff;
+    background: #bf0811;
+    margin-left: -42px;
+    margin-right: 5px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 30.5px;
+}
+
+/*LISTA ORDENADA 2*/
+#actividad .content .cke_contents .bck-ol-2,
+#actividad .content .texto_curso .bck-ol-2,
+#actividad .content .workspace ul li .bck-ol-2 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-2 li,
+#actividad .content .cke_contents .bck-ol-2 li,
+#actividad .content .texto_curso .bck-ol-2 li,
+#actividad .popover-content .bck-ol-2 li,
+#actividad .content .workspace ul li .bck-ol-2 li {
+    counter-increment: bck-li-counter;
+    padding-left: 0px;
+    position: relative;
+    z-index: 0;
+}
+
+#actividad .content .cke_contents .bck-ol-2 li:before,
+#actividad .content .texto_curso ol.bck-ol-2 li:before,
+#actividad .popover-content ol.bck-ol-2 li:before,
+#actividad .content .workspace ul li ol.bck-ol-2 li:before {
+    content: counter(bck-li-counter);
+    color: #333;
+    font-weight: bold;
+    margin-top: 0;
+    padding-right: 10px;
+    text-align: right;
+    position:absolute;
+    left:-10px;
+
+}
+
+
+
 
 	.texto_curso ul li,
 	.workspace ul li ul li,
