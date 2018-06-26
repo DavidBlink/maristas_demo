@@ -42,6 +42,20 @@
     background: transparent;
 }
 
+	
+
+
+	/*toc*/
+
+	#indice .units ul li.active:not(.disabled), body:not(.isTablet) #indice .units ul li:hover:not(.disabled), #indice .units ul li:focus:not(.disabled) {
+    background: #eb6b34;
+}
+
+
+
+
+
+
 	#actividad .carousel-inner .item-container {
 		background-image: none;
 		margin: 20px auto 30px;
@@ -72,7 +86,7 @@
 
 	.btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
     color: #fff;
-    background-color: #363777;
+    background-color: #eb6b34;
     border-color: transparent;
     opacity: 1;
 	}
