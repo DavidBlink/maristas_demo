@@ -47,6 +47,11 @@
 		display: none;
 	}
 
+
+	#actividad .content .header {
+		display: none;
+	}
+
 	#indice .units ul li a .number,
 	#indice .unit-content .header .number
 	 {
@@ -552,8 +557,9 @@
 
 	.bck-enfasis,
 	strong {
-		color: #1f4e88;
+		color: #eb6b34;
     font-weight: bold;
+    font-size: 2rem;
 	}
 
 	.content hr,
@@ -683,9 +689,9 @@
 	}
 
 	.bck-box.box-1 {
-		border: 3px solid #1f4e88;
-		background: #ffffff;
-		padding: 40px;
+		border: 0px;
+		background: #faeee3;
+		padding: 30px;
 		position: relative;
 		margin-top: 60px;
 		border-radius: 40px;
@@ -1309,4 +1315,3 @@ div.calculo table.marco * {
 .content_type_clase_modern .slide_main input {
     border: 1px solid #ccc !important;
 }
-
