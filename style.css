@@ -32,7 +32,15 @@
 		-webkit-transform-style: flat;
 	}
 
+/*borde naranja cajas de texto*/
 
+.slide_main .html-book input, .slide_main .html-book textarea, .slide_main .html-book .preview {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #eb6b34;
+    background: transparent;
+}
 
 	#actividad .carousel-inner .item-container {
 		background-image: none;
@@ -631,7 +639,7 @@
     margin-top: -2px;
     background-color: #eb6b34;
     border-radius: 50%;
-    padding: 5px;
+    padding: 3px;
     width: 32px;
     height: 32px;
 }
@@ -691,15 +699,15 @@
 
 
 	.foro_wiki_cke_text ul li:before, .texto_curso ul li:before, .workspace:not(.test) ul li ul li:before, .cke_contents ul li:before, .preview ul li:before, .classify-item ul li:before {
-    height: 6px;
-    width: 6px;
-    background-color: #e21f48;
+    height: 11px;
+    width: 11px;
+    background-color: #f6986c;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     border-radius: 100%;
-    margin-top: .6em;
-    margin-left: -15px;
-	}
+    margin-top: 4px;
+    margin-left: -23px;
+    }
 
 
 
@@ -812,13 +820,27 @@
 	}
 
 	.bck-box.box-2 {
-		border: 0;
+    border: 3px solid;
+    border-color: #f6986c;
     padding: 20px;
-    font-size: 1.4rem;
+    background: #faefe5;
+    font-size: 1.8rem;
     position: relative;
-    margin-bottom: 40px;
-    border-radius: 40px;
-    box-shadow: 0 0 30px 0px rgba(0,0,0,.1);
+    margin-bottom: 30px;
+    border-radius: 24px;
+
+}
+
+
+.bck-box.box-2 .bck-title {
+    margin-top: -15px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-radius: 40px 40px 0 0;
+    padding: 15px 0px 0px 15px;
+    color: #211915;
+    background: #faefe5;
+    font-weight: bold;
 
 	}
 
@@ -839,7 +861,7 @@
 		font-weight: bold;
 	}
 
-	.bck-box.box-2 .bck-title,
+	.bck-box.box-2 .bck-title,    
 	.bck-box.box-3 .bck-title {
 		margin-top: -20px;
 		margin-left: -20px;
@@ -911,6 +933,34 @@
     background-color: rgba(0, 54, 120, 0.23);
     border-radius: 9px;
 }
+
+
+.bck-dropdown-icon>.fa {
+    display: inline-block;
+    border: 3px solid #eb6b34;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    padding: 7px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.fa-chevron-up:before {
+    content: "\f077";
+    color: #eb6b34;
+}
+
+.bck-dropdown-titulo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 2.5rem;
+    padding-left: 10px;
+    color: #eb6b34;
+}
+
+
 
 
 
