@@ -579,18 +579,19 @@
 		counter-increment: bck-li-counter 1;
 		position: relative;
 		padding-left: 32px;
+		font-size: 1.8rem;
 	}
 
 	.content ol li:before,
 	.cke_contents ol li:before {
     content: counter(bck-li-counter)'. ';
     position: absolute;
-    margin-left: -40px;
+    margin-left: -20px;
     font-weight: bold;
     font-size: 1.8rem;
     text-align: center;
     color: #333;
-    margin-top: -2px;
+    margin-top: 0px;
     
 }
 
