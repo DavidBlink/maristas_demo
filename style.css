@@ -105,11 +105,8 @@
     background: #363777;
 	}
 
-	.btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
-    color: #fff;
-    
-    border-color: transparent;
-    opacity: 1;
+	.btn-primary {
+		background-color: red;
 	}
 
 
