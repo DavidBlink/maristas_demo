@@ -1120,7 +1120,7 @@
 
     .body_curso #indice .unit-content .header {
          height: 65px;
-        background-image: url(/useruploads/ctx/a/83021220/r/s/21000379/375x65mar.png) !important;
+        
         }
 
 
@@ -1146,7 +1146,7 @@
 
     .body_curso #indice .unit-content .header {
          height: 145px;
-        background-image: url("../maristas_demo/blob/master/images/630x145mar.png") !important;
+        
     }
 
     /*barra desplazamiento*/
@@ -1432,7 +1432,6 @@
     .body_curso #indice .unit-content .header {
         height: 55px;
         left: 0px;
-        background-image: url(/useruploads/ctx/a/83021210/r/s/20981549/375x65mar.png) !important;
         }
 
     .body_curso #indice .unit-content .header .title{
