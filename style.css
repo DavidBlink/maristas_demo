@@ -1116,7 +1116,7 @@
 
     .body_curso #indice .unit-content .header {
          height: 145px;
-        background-image: url(/useruploads/ctx/a/83021210/r/s/20981549/630x145mar.png) !important;
+        background-image: url("../maristas_demo/blob/master/images/630x145mar.png") !important;
     }
 
     /*barra desplazamiento*/
