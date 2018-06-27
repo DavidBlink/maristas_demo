@@ -1241,13 +1241,38 @@
     }
 
     #indice .unit-content .header .title {
-    	    color: #363777;
-    }
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    font-weight: 700;
+    height: 106px;
+    line-height: 30px;
+    margin: 15px 140px 20px 30px;
+    overflow: hidden;
+    z-index: 1;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
 
     .body_curso #indice .unit-content:not(.active) .header .title {
         width: 100%;
        color:#fff;
     }
+
+
+    a:hover, a:active, a:focus {
+    outline: 0;
+    color: #e00230;
+    text-decoration: none;
+}
+
+
+
 
     /*ejercicios*/
     /*header negro*/
