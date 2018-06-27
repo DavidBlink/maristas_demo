@@ -105,8 +105,9 @@
     background: #363777;
 	}
 
-	.btn-primary {
-		background-color: red;
+	.btn-primary, .btn-primary.disabled {
+		background-color: #003474;
+	}
 	}
 
 
