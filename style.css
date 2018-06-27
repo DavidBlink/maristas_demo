@@ -79,13 +79,6 @@
         }
 
 
-        a:hover, a:active, a:focus {
-    outline: 0;
-    color: #e00230;
-    text-decoration: none;
-	}
-
-
 
 	#actividad .carousel-inner .item-container {
 		background-image: none;
