@@ -129,7 +129,7 @@
     column-count: 2;
     line-height: 14px;
     column-gap: 6px;
-    width: 100%;
+    width: 100%!important;
     margin: 10px auto;
     text-align: center;
 	}
