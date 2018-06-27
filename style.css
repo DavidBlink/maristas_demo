@@ -1113,6 +1113,8 @@
     /*tamaño slide*/
     .body_clase #actividad .carousel-inner .item-container {
         margin-top: 47px;
+        padding-left: 10px
+        padding-top: 20px;
     }
 
 
