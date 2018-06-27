@@ -107,7 +107,7 @@
 
 	.btn-primary, .btn-primary.disabled, .btn-primary.disabled:focus {
     color: #fff;
-    background-color: #363777;
+    
     border-color: transparent;
     opacity: 1;
 	}
